@@ -3,7 +3,7 @@ multi-class image classification  because we're trying to classify mutliple diff
 We're going to go through the following TensorFlow/Deep Learning workflow:
 
 Get data ready ( store, import).
-Prepare the data (preprocessing, the 3 sets, X & y).
+Prepare the data (turning images into numbers and then converting them into tensors, splitting x and y labels, making our own validation set).
 Choose and fit/train a model (TensorFlow Hub, tf.keras.applications, TensorBoard, EarlyStopping).
 Evaluating a model (making predictions, comparing them with the ground truth labels).
 Improve the model through experimentation .
