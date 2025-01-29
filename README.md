@@ -4,7 +4,7 @@ We're going to go through the following TensorFlow/Deep Learning workflow:
 
 Get data ready ( store, import).
 Prepare the data (turning images into numbers and then converting them into tensors, splitting x and y labels, making our own validation set, converting data in form of tensors to tensor tuples than making data batches of size 32).
-Choose and fit/train a model (setting input and output size and choosing a model from TensorFlow Hub, tf.keras.applications, TensorBoard, EarlyStopping).
+Choose and fit/train a model (setting input and output size and choosing a model from TensorFlow Hub).
 Evaluating a model (making predictions, comparing them with the ground truth labels).
 Improve the model through experimentation .
 Save, sharing and reloading your model .
